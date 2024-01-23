@@ -1,0 +1,83 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #bfdcf8;
+}
+
+header {
+  background-color: #141e30;
+  color:  #03e9f4;
+  text-align: center;
+  padding: 1%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+	background-color:  white;
+	color: #141e30;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+  font-size: 3vh;
+  }
+
+section {
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 20px;
+}
+.information{
+  background-color: #243b55;
+  color:  #03e9f4;
+  border: 1px solid #bdc3c7;
+  border-radius: 5%;
+  padding: 1%;
+  margin: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 2vh;
+}
+.number-card,
+.graph-card {
+  background-color: #243b55;
+  color:  #03e9f4;
+  border: 1px solid #bdc3c7;
+  border-radius: 5%;
+  padding: 1%;
+  margin: 5%;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 2vh;
+}
+
+.number-card h2,
+.graph-card h2 {
+  color:  #03e9f4;
+}
+.cercle{
+  display: flex;
+}
+.info{
+  background-color:  white;
+	color: #141e30;
+  height: 30px;
+  font-size: 4vh;
+}
+.number-card p {
+  font-size: 3vh;
+}
+.log-out {
+  background-color: white;
+}
+pie-chart{
+  width: 200px;
+  height: 200px;
+}
+.number-card{
+  height: 100px;
+}
+/* Ajoutez votre style pour les graphiques ici */

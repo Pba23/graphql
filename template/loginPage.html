@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/styles/loginPage.css">
+</head>
+<body>
+
+    <div class="login-box">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <div class="user-box">
+            <input type="text" name="username" required="">
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="password" required="">
+            <label>Password</label>
+          </div>
+          <div class="error">
+          </div>
+
+          <a id="submitF" >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
+        </form>
+      </div>
+
+    <script type="module">
+      import {submitForm} from "../js/loginPage.js"
+     
+      document.getElementById("submitF").addEventListener("click",submitForm)
+    </script>
+</body>
+</html>
